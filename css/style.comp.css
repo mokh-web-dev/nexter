@@ -285,6 +285,9 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 7rem; }
+  @media only screen and (max-width: 37.5em) {
+    .homes {
+      grid-column: 2/9; } }
 
 .home {
   background-color: #f9f7f6;
